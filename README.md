@@ -2,7 +2,7 @@
 
 ## **1\. Introdução**
 
-Este documento detalha o projeto de um chatbot que interage com usuários, fornecendo informações da Wikipedia e analisando o sentimento de suas mensagens. O objetivo principal é criar um sistema de conversação que seja informativo e capaz de adaptar suas respostas ao estado emocional do usuário. O projeto utiliza várias bibliotecas de processamento de linguagem natural (PLN) para alcançar esses objetivos.
+Este é um projeto de um chatbot que interage com usuários, fornecendo informações da Wikipedia e analisando o sentimento de suas mensagens. O objetivo é criar um sistema de conversação que seja informativo e capaz de adaptar suas respostas ao estado emocional do usuário. O projeto utiliza várias bibliotecas de processamento de linguagem natural (PLN) para alcançar esses objetivos.
 
 ## **2\. Contexto**
 
@@ -23,7 +23,7 @@ Este projeto não utiliza um conjunto de dados tradicional no sentido de um arqu
 
 ## **4\. Metodologia**
 
-A metodologia do projeto envolve as seguintes etapas principais:
+A metodologia do projeto envolve as seguintes etapas:
 
 1. **Instalação e Importação de Bibliotecas:** As bibliotecas necessárias (wikipedia, nltk, textblob, transformers, random) são instaladas e importadas.  
 2. **Configuração Inicial:** Recursos do NLTK (como o léxico VADER) são baixados, a Wikipedia é configurada para o idioma português e os modelos de análise de sentimentos são carregados.  
@@ -88,8 +88,6 @@ Esta função controla o loop de interação do chatbot:
 * Encerra a conversa quando o usuário digita "sair", "exit" ou "tchau".
 
 ## **6\. Resultados**
-
-Os principais resultados do projeto incluem:
 
 * **Chatbot Interativo:** Um chatbot capaz de manter uma conversa básica com o usuário.  
 * **Integração com a Wikipedia:** Capacidade de fornecer informações relevantes da Wikipedia em resposta às perguntas do usuário.  
