@@ -20,6 +20,7 @@ Acesse: http://localhost:8501
 ## 📁 Estrutura do Projeto
 
 ```
+├── streamlit_app.py                # Entry point para Streamlit Cloud
 ├── app.py                          # Dashboard Streamlit
 ├── Dockerfile                      # Imagem Docker
 ├── docker-compose.yml              # Orquestração Docker
@@ -49,7 +50,7 @@ Acesse: http://localhost:8501
 1. Acesse [share.streamlit.io](https://share.streamlit.io) e faça login com seu GitHub
 2. Clique em **"New app"** 
 3. Selecione este repositório: `spdr-lily/chatbot-com-wikipedia`
-4. Em **"Main file path"** coloque: `app.py`
+4. Em **"Main file path"** coloque: `streamlit_app.py` (ou `app.py`)
 5. Clique em **"Deploy"**
 
 > ⚠️ A primeira execução pode levar 2-3 minutos para baixar o modelo de sentimentos do Hugging Face. Nas execuções seguintes será mais rápido.
